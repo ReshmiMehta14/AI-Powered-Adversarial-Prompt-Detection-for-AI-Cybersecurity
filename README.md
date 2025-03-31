@@ -32,13 +32,13 @@ The detection system consists of the following components:
 - **ML Model**: Trained on labeled prompts for precise classification.
 
 ### 2. **Red Team Prompt Generation (redteamgeneratedqueries.py)**
-- Uses GPT to generate adversarial prompts for red team simulations.
+- Uses GPT to generate adversarial prompts for red team simulations which are used and saved in example logs.
 
 ### 3. **Logging (logger.py)**
 - Records prompt inputs, classifications, and analysis results.
 
 ### 4. **Testing (test.py)**
-- Simulates attacks, tests detection accuracy, and stores logs.
+- Simulates attacks, tests detection accuracy, and stores logs as examples.
 
 ### 5. **Dashboard (dashboard.py)**
 - Provides a Streamlit-based interface for real-time chat detection, visualization, and log analysis.
