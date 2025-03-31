@@ -21,7 +21,7 @@ This tool is essential for organizations to test AI vulnerabilities, enhance AI 
 
 ---
 
-## 🧠 **Technical Architecture**
+##  **Technical Architecture**
 
 The detection system consists of the following components:
 
@@ -45,7 +45,7 @@ The detection system consists of the following components:
 
 ---
 
-## 🧠 **Machine Learning Model**
+##  **Machine Learning Model**
 - **Model**: Logistic Regression
 - **Accuracy**: Achieved 98% accuracy
 - **Dataset**: Generated using GPT with labeled prompts including categories like Safe Input, Prompt Injection, Data Exfiltration, Social Engineering, and Code Execution.
@@ -54,7 +54,7 @@ The detection system consists of the following components:
 
 ---
 
-## 📊 **Visualization**
+##  **Visualization**
 - **Real-Time Detection**: Visualizes classified prompts using bar charts.
 - <img width="753" alt="Screenshot 2025-03-31 at 1 13 34 PM" src="https://github.com/user-attachments/assets/f9f9e9d2-9343-447d-8c61-d42bda34f0b4" />
 
@@ -63,7 +63,7 @@ The detection system consists of the following components:
 
 ---
 
-## 🧑‍🏫 **Example Inputs and Outputs**
+## **Example Inputs and Outputs**
 Here are some sample inputs and how the system classifies them:
 
 | **User Input**                                                  | **Prediction**        |
